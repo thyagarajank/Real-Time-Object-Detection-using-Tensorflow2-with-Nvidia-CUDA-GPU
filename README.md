@@ -147,12 +147,9 @@ cd C:\tf\models\research\object_detection
 Choose the tf2 models
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 
-### Edit the path in object_detection_camera.py
-
-MODELS_DIR = 'data/models'
-MODEL_NAME = 'C:/tf/models/research/object_detection/tf2/20200711/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8'
 
 ### Step 8. Run the model code.
 ```
 python object_detection_camera.py
 ```
+Edit the path in object_detection_camera.py
