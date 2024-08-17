@@ -17,20 +17,20 @@ Add the following paths, then click “OK” to save the changes:
    C:\Users\USER-NAME\anaconda3\
    ```
 ## CUDA and CuDNN Installation
-Cuda and CuDNN GPU based system you will need:_____________
+Cuda and CuDNN GPU-compatibility Chart:
 ![My Image](config_img/TF-GPU.png)
 
-4.CUDA installed 
+1.CUDA installed 
 Follow this link to download and install CUDA Toolkit 11.2
 https://developer.nvidia.com/cuda-toolkit-archive
 
-5.CuDNN installed
+2.CuDNN installed
 Select Download cuDNN v8.1.0 (January 26th, 2021), for CUDA 11.0,11.1 and 11.2
 https://developer.nvidia.com/rdp/cudnn-archive
 
-Extract the contents of the zip file (i.e. the folder named cuda) inside <INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\, where <INSTALL_PATH> points to the installation directory specified during the installation of the CUDA Toolkit. By default <INSTALL_PATH> = C:\Program Files.
+3.Extract the contents of the zip file (i.e. the folder named cuda) inside <INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\, where <INSTALL_PATH> points to the installation directory specified during the installation of the CUDA Toolkit. By default <INSTALL_PATH> = C:\Program Files.
 
-6.Go to Start and Search “environment variables”
+4.Go to Start and Search “environment variables”
 
 Click “Edit the system environment variables”. This should open the “System Properties” window
 
@@ -50,10 +50,7 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\extras\CUPTI\lib64
 
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\cuda\bin
 ```
-## Lesson 1 - This readme describes every step required to get going with your own object detection classifier:
-
-Installing Anaconda, CUDA, and cuDNN
-
+## Tensorflow 2 Installation
 
 ### Step 1. create a new environment in Conda
 python Verison 3.7 - 3.10
@@ -155,7 +152,7 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 MODELS_DIR = 'data/models'
 MODEL_NAME = 'C:/tf/models/research/object_detection/tf2/20200711/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8'
 
-Run the model using Webcamera
+### Step 8. Run the model code.
 ```
 python object_detection_camera.py
 ```
