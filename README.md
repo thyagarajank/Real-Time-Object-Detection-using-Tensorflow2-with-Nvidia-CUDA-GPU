@@ -18,7 +18,7 @@ Add the following paths, then click “OK” to save the changes:
    ```
 ## CUDA and CuDNN Installation
 Cuda and CuDNN GPU-compatibility Chart:
-![My Image](config_img/TF-GPU.png)
+![My Image](files/TF-GPU.png)
 
 1.CUDA installed 
 Follow this link to download and install CUDA Toolkit 11.2
