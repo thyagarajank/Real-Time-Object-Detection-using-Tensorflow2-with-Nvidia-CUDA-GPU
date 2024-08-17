@@ -1,12 +1,12 @@
 # Real-Time-Object-Detection-using-Tensorflow2-with-Nvidia-CUDA-GPU
+## Introduction
 This guide provides a streamlined process for setting up TensorFlow 2 with GPU acceleration using NVIDIA CUDA and cuDNN on Windows 10 or 11. It covers the installation of the CUDA Toolkit and cuDNN library, environment variable configuration, and Anaconda environment setup to optimize TensorFlow 2 for real-time object detection tasks.
 
-
-## Introduction
-## Software prerequisites
-1. Windows 10 or windows 11
+## Anaconda Installation 
+1. Operating System : Windows 10 or windows 11
 2. Anaconda https://repo.anaconda.com/archive/
-In the opened window, click the “Environment Variables…” button to open the “Environment Variables” window.
+   Install Anaconda and Microsoft Visual C++ Redistributable
+Go to window search, click the “Environment Variables…” button to open the “Environment Variables” window.
 Under “System variables”, search for and click on the Path system variable, then click “Edit…”
 Add the following paths, then click “OK” to save the changes:
    ```
@@ -16,14 +16,15 @@ Add the following paths, then click “OK” to save the changes:
    C:\Users\USER-NAME\anaconda3\Library\bin
    C:\Users\USER-NAME\anaconda3\
    ```
-3. For a GPU based system you will need:
+## CUDA and CuDNN Installation
+Cuda and CuDNN GPU based system you will need:_____________
 ![My Image](config_img/TF-GPU.png)
 
 4.CUDA installed 
 Follow this link to download and install CUDA Toolkit 11.2
 https://developer.nvidia.com/cuda-toolkit-archive
 
-5.cuDNN installed
+5.CuDNN installed
 Select Download cuDNN v8.1.0 (January 26th, 2021), for CUDA 11.0,11.1 and 11.2
 https://developer.nvidia.com/rdp/cudnn-archive
 
