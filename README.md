@@ -1,9 +1,6 @@
 # Real-Time-Object-Detection-using-Tensorflow2-with-Nvidia-CUDA-GPU
 This guide provides a streamlined process for setting up TensorFlow 2 with GPU acceleration using NVIDIA CUDA and cuDNN on Windows 10 or 11. It covers the installation of the CUDA Toolkit and cuDNN library, environment variable configuration, and Anaconda environment setup to optimize TensorFlow 2 for real-time object detection tasks.
 
-# Real-Time-Object-Detection-using-Tensorflow2
-
-# Object-Detection.
 
 ## Introduction
 ## Software prerequisites
